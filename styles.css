@@ -1,0 +1,19 @@
+.ahorro-container {
+  position: relative;
+  display: inline-block;
+}
+
+.ahorro-info {
+  display: none;
+  background-color: white;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  z-index: 1;
+}
+
+.ahorro-container:hover .ahorro-info {
+  display: block;
+}

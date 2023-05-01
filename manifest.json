@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "MiExtensionHibrida",
+  "version": "1.0",
+  "description": "Extensión para calcular el ahorro y la conveniencia en cuotas y mostrar el total en pesos considerando impuestos.",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.mercadolibre.com/*",
+        "https://www.tiendamia.com/*",
+        "https://www.epicgames.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

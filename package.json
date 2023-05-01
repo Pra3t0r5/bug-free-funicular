@@ -1,0 +1,27 @@
+{
+  "name": "bug-free-funicular",
+  "version": "1.0.0",
+  "description": "Extensión para calcular el ahorro y la conveniencia en cuotas y mostrar el total en pesos considerando impuestos.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pra3t0r5/bug-free-funicular.git#dev"
+  },
+  "keywords": [
+    "chrome-extension",
+    "prices",
+    "inflation"
+  ],
+  "author": "Pra3t0r5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pra3t0r5/bug-free-funicular/issues"
+  },
+  "homepage": "https://github.com/Pra3t0r5/bug-free-funicular/tree/dev#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
